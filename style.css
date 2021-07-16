@@ -1,0 +1,149 @@
+
+
+body{font-family: 'Poppins', sans-serif;}
+
+
+section{
+    display: flex;
+    background-color: rgb(85, 6, 212);
+    padding: 8% 12% 8% 12%;
+    
+}
+@media (max-width: 688px ) {
+   section{
+       flex-direction: column;
+   } 
+    
+}
+.half-width{
+    width: 50%;
+    
+}
+.half-width img{
+    width: 100%;
+    padding-right: 5%;
+}
+h1{
+    font-size: 65px;
+    color: rgb(12, 12, 12);
+}
+.lalu{
+    text-decoration: none ;
+    background-color: rgb(236, 7, 7);
+    text-align: center;
+   padding: 2% 5% 2% 5%;
+   color: floralwhite;  
+   
+}
+.boxx{
+   float: right;
+    
+}
+.photo:hover{
+    transform:scale(1.2) ;
+    overflow: hidden;}
+
+  .box{
+   margin: 50px;
+      
+  }
+  .card{
+      width: 280px;
+      text-align: center;
+      margin-top: 2px;
+      /* border: 1px solid gray; */
+      box-shadow: 0px 0px 7px 0px gray ;
+  }
+  .card img{
+      width: 90%;
+      padding-top:5% ;
+  }
+  .text{
+      width: 90% ;
+  }
+  
+  .container{
+      margin: 80px;
+     padding-bottom: 20px;
+      width: 1200px;
+       border: 0px solid rgb(255, 255, 255);
+      display: flex;
+    flex-wrap: wrap;}
+
+     
+    /* @media (max-width: 688px ) { */
+        /* .container{ */
+            /* flex-direction: column; */
+        /* }  */
+     
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.logo img{
+    width: 354px;
+    height: 110px;
+}
+.icon i{
+    padding: 5px
+    border radius 20px;
+    
+    margin: 5px;
+    background-color: rgb(201,195,195);
+    color: gray;
+}
+.photo-fra{
+    width: 400px;
+    height: 300px;
+    border: 5px solid grey;
+    border-radius: 10px;
+    position: relative;
+}
+.photlu img{
+    width: 100%;
+}
+.photo-detail{
+    display: none;
+    position: absolute;
+    width: 400px;
+    top: 0;
+}
+.photo-alb{
+    display: flex;
+}
+/* @media (max-width: 688px ) { */
+    /* .photo-alb{ */
+        /* flex-direction: column; */
+    /* }  */
+.photo-detail h3{
+    background-color: lightseagreen;
+    color: black;
+    text-align: center;
+}
+.photo-detail p{
+    color: cornsilk;
+}
+.photo-fra:hover .photo-detail{
+    display: block;
+    background-color: rgba(185, 150, 150, 0.521);
+}
+.buuu{
+    text-align: center;
+}
+.containerr{
+    margin: 80px;
+     padding-bottom: 0px;
+      width: 1200px;
+        border: 0px solid rgb(255, 255, 255); 
+      display: flex;
+       flex-wrap: wrap;
+         } 
+.photo-fra{
+    margin: 66px;
+}
+
+
